@@ -70,8 +70,9 @@ function bass_init(number window_handle)
 #pragma region "MOD/MO3 music"
     // Load(BASS_MusicFree);
     // Load(BASS_MusicLoad);
+#pragma endregion
 
-    /* Recording */
+#pragma region "Recording"
     // Load(BASS_RecordFree);
     // Load(BASS_RecordGetDevice);
     // Load(BASS_RecordGetDeviceInfo);
