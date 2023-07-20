@@ -15,6 +15,7 @@ BASS is free for non-commercial projects, otherwise you are required to have a l
 - You can now start using BassWrapper.
 
 See the included Game Maker example project for an overview on how to use BassWrapper functions.
+Browseable example source file can be found on [example](https://github.com/Apis035/BassWrapper/tree/example) branch.
 
 # Compiling from source
 
