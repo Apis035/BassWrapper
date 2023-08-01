@@ -70,13 +70,17 @@ sample[3] = bassSampleLoad("data\crash.wav", 0)
 stream[0] = bassStreamLoad("data\amen-break_175bpm_D#_minor.ogg")
 stream[1] = bassStreamLoad("data\electro-drums_132bpm.ogg")
 stream[2] = bassStreamLoad("data\blue archive 1st anniversary bgm.ogg")
-totalStream = 3
+stream[3] = bassStreamLoad("data\Theme_02.ogg")
+totalStream = 4
 // You can add your own audio here. Don't forget to increase totalStream
-
 
 // Custom loop for stream 3
 bassStreamSetLoopStart(stream[2], 11.620)
 bassStreamSetLoopEnd(stream[2], 86.146)
+
+// Custom loop for stream 4
+bassStreamSetLoopStart(stream[3], 38.400)
+bassStreamSetLoopEnd(stream[3], 134.400)
 
 // Enable stream loop
 i = 0 repeat totalStream {
