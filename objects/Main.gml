@@ -170,7 +170,7 @@ i = 0 repeat totalStream {
 }
 
 // Play, pause, resume
-if keyboard_check_pressed(ord('P')) {
+if keyboard_check_pressed(vk_space) {
     switch status {
 
     case 'stopped':
@@ -339,7 +339,7 @@ draw_text(room_width - 16, room_height - 16, "
     Control:
     1/2/3 - Change stream
     Z/X/N/M - Play sample
-    P - Play/pause
+    Space - Play/pause
     S - Stop
     L - Toggle loop
     Mouse wheel - Change volume
