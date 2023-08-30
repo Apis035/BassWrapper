@@ -16,6 +16,13 @@ function bass_init(number window_handle)
 
 #define Load(f) f = GetProcAddress(BassLibrary, #f)
 
+#pragma region "Config"
+    Load(BASS_GetConfig);
+    // Load(BASS_GetConfigPtr);
+    Load(BASS_SetConfig);
+    // Load(BASS_SetConfigPtr);
+#pragma endregion
+
 #pragma region "Initialization, info, etc..."
     Load(BASS_ErrorGetCode);
     Load(BASS_Free);

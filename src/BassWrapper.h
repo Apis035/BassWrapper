@@ -1,5 +1,5 @@
 /*
- * BassWrapper 1.0
+ * BassWrapper 1.0.1
  * BASS 2.4.17.11
  */
 
@@ -9,7 +9,7 @@
 
 #define VERSION_MAJOR 1
 #define VERSION_MINOR 0
-#define VERSION_RELEASE 0
+#define VERSION_RELEASE 1
 
 /* Includes */
 

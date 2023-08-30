@@ -2,7 +2,7 @@
 ///bassInit()
 
 /*
- * BassWrapper 1.0
+ * BassWrapper 1.0.1
  * BASS 2.4.17.11
  */
 
